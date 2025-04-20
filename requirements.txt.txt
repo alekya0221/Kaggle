@@ -1,0 +1,31 @@
+# Core Dependencies
+pdfplumber==0.6.0
+tiktoken==0.3.3
+openai==0.27.0
+chromadb==0.3.21
+sentence-transformers==2.2.2
+
+# Data Handling
+pandas==1.5.3
+numpy==1.23.5
+
+# Optional – Visualization & Utilities (you can remove if not needed)
+matplotlib==3.7.1
+scikit-learn==1.2.2
+
+# FastAPI / Streamlit (if you're using an interface or API)
+fastapi==0.95.1
+uvicorn==0.22.0
+streamlit==1.21.0
+
+# For structured logs and progress
+rich==13.3.5
+tqdm==4.65.0
+
+# Optional NLP tools
+nltk==3.8.1
+spacy==3.5.0
+
+# Web & Cloud Support
+requests==2.28.2
+python-dotenv==1.0.0
